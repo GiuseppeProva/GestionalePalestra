@@ -54,15 +54,13 @@
 	  <version>${org.springframework.version}</version>
 	</dependency>
 	 
-	<!--
-	    Aspect Oriented Programming (AOP) Framework (depends on spring-core, spring-beans)
-	    Define this if you use Spring AOP APIs (org.springframework.aop.*)
-	-->
-	<dependency>
-	  <groupId>org.springframework</groupId>
-	  <artifactId>spring-aop</artifactId>
-	  <version>${org.springframework.version}</version>
-	</dependency>
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.9</version>
+</dependency>
+
 	 
 	<!--
 	    Application Context (depends on spring-core, spring-expression, spring-aop, spring-beans)
@@ -232,12 +230,12 @@
 	  <version>1.4</version>
 	</dependency>
 	
-	<dependency>
+	<!-- <dependency>
 	  <groupId>com.oracle</groupId>
 	  <artifactId>ojdbc6</artifactId>
 	  <version>11.2.0</version>
 	</dependency>
-        
+         -->
    
 	
   </dependencies>
